@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<figure>风景</figure>
+	<figcaption></figcaption>
+	<img src="2416945_231841034_2.jpg" alt="">
+	<figure>科比</figure>
+	<figcaption></figcaption>
+	<img src="u=1328551192,3447743447&fm=21&gp=0.jpg" alt="">
+	<figure>网页图片</figure>
+	<figcaption></figcaption>
+	<img src="http://img.firefoxchina.cn/2016/03/5/201603140848330.jpg" alt="">			
+</body>
+</html
