@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单</title>
+    <title>menu</title>
+<style>
+    .clearfix::after{
+        content:"";
+        display:blok;
+        clear:both;
+        width:0;
+        height:0;
+        font-size:0;
+}
+    .menu{
+        background-color:pink;
+        height:25px;
+      width:50px
+      box-shadow:1px 1px 5px #e3e;
+}
+    .menu li{
+        list-style-type:none;
+        float:left;
+        font-size:12px;
+        padding:3px 20px;
+        margin:3px;
+         
+    }
+    .menu li:not(:first-child){
+        border-left:1px solid white;
+    }
+    .menu li a:link{
+        color:blue;
+        font-weight:bold;
+        text-decoration:none;
+        padding:2px 3px;
+      
+    }
+    .menu li a:hover{
+        background-color:blue;
+    }
+    a{
+        text-decoration:none;
+        
+  
+    }   <style>
+  
+</style>
+</head>
+<body>
+    <ul class="menu clearfix" >
+        <li><a href="#">首页</a></li>
+        <li><a href="#">学院</a></li>
+        <li><a href="#">风景</a></li>
+        <li><a href="#">娱乐</a></li>
+        <li><a href="#">电影</a></li>
+         <li><a href="#">联系方式</a></li>
+        <li><a href="#">地址</a></li>
+        <li><a href="#">联系电话</a></li>
+        
+    </ul>
+</body>
+</html>
+</style>
+    
+
